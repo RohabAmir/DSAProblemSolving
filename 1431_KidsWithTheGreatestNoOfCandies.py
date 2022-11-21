@@ -10,9 +10,10 @@ class Solution(object):
                 if(max<candies[j]):
                     boolVal=False
                     result[i]=boolVal
+
         return result
 r=Solution()
-print(r.kidsWithCandies([2,3,5,1,3],3))
+print(r.kidsWithCandies([4,2,1,1,2],1))
         
         
         
