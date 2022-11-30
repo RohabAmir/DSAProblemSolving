@@ -1,7 +1,7 @@
 class Solution(object):
     def runningSum(self, nums):
         sum=0
-        ans=1*nums #create a new array having size equal to nums arrays
+        ans=[1]*nums #create a new array having size equal to nums arrays
         for i in range(len(nums)):
             sum= sum+nums[i]
             ans[i]=sum

@@ -10,7 +10,7 @@ class Solution(object):
         return ans1 + ans2
 # Sol2;
         n=len(nums)
-        ans=2*nums
+        ans=[2]*nums
         for i in range(len(nums)):
             ans[i]==nums[i]
             ans[i+n]==nums[i]

@@ -6,7 +6,9 @@ class Solution(object):
             while(number>0):
                 number /= 10
                 digits +=1 #2,3,1,1,4
-            if(digits%2 == 0):
-                count+=1 #2
+            if(digits%2 == 0): #If digits are even 
+                count+=1 
         return count
+r=Solution()
+print(r.findNumbers([12,321,2,4,4689]))   
         
